@@ -19,7 +19,7 @@ After compilation is done, one has an executable file named output.
 ~~~~~~~~~~~~~~~{.cpp}
     ./output
 ~~~~~~~~~~~~~~~
-Then running output executable will give the desired outcome of the program to the PromoCodes.txt file. Program will print out 10,000,000 unique promo codes to PromoCodes.txt file and after creating each code program will pass it to CheckCode() function and will continue generating codes only if outcome of the CheckCode() is true. 
+Then running output executable will give the desired outcome of the program to the PromoCodes.txt file. Program will print out 1,000 unique promo codes to PromoCodes.txt file and after creating each code program will pass it to CheckCode() function and will continue generating codes only if outcome of the CheckCode() is true. 
 
 # Conclusion
 
