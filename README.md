@@ -1,6 +1,6 @@
 # Creation and Checking Mechanism for Promo Cupon Codes
 Project by Mustafa Can Aydin
-
+Notes: I have written and tested this code in C++11 using MacOS Big Sur version 11.2.3
 
 # Explanation
 
