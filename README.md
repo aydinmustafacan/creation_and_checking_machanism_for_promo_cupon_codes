@@ -10,7 +10,7 @@ Main idea of the project is to generate 10,000,000 promo coupon codes to be dist
 
 # Compiling and Running of the Project
 
-In order to run program first one has to compile main.cpp, md5.cpp, and md5.h files into executable. To achive this this project utilizes Makefile. Running below command in a folder containing main.cpp, md5.cpp, md5.h, and Makefile will give the desired executable file. 
+In order to run program first one has to compile main.cpp, md5.cpp, and md5.h files into executable. To achive this this project utilizes Makefile. Running below command in directory containing main.cpp, md5.cpp, md5.h, and Makefile will give the desired executable file. 
 ~~~~~~~~~~~~~~~{.cpp}
     make
 ~~~~~~~~~~~~~~~
