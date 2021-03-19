@@ -47,7 +47,7 @@ bool CheckCode(string code) {
 int main() {
     FILE* fileptr;
     fileptr = fopen("PromoCodes.txt","a");
-    for(int i=0; i<1000000 ;i++){
+    for(int i=0; i<1000 ;i++){
         string myStr= GenerateCodes();
         fprintf(fileptr, "%d- %s\n",(i+1),myStr.c_str());
         if(!CheckCode(myStr)){
