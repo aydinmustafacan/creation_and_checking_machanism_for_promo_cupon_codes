@@ -1,11 +1,11 @@
-# Creation and Checking Mechanism for Promo Cupon Codes
+# Creation and Checking Mechanism for Promo Coupon Codes
 Project by Mustafa Can Aydin \
 Notes: I have written and tested this code in C++11 using MacOS Big Sur version 11.2.3
 
 # Explanation
 
 
-Main idea of the project is to generate 10,000,000 promo cupon codes to be distributed to company's customers as a gift. Each promo code has to be unique with length of 8 characters taken from the set {A,C,D,E,F,G,H,K,L,M,N,P,R,T,X,Y,Z,2,3,4,5,7,9}. These codes will be given to authorized people and printed out to be distributed to customers. Customers who have taken the a promo code may use it through a mobile app or similar application. To protect these codes from thief codes should not be stored in a database and should be check algorithmically. This project aims to generate a unique hash for each code which cannot be decrypted and checks codes by passing each code into hash function and comparing hash values to verified hash values. The has function that is used in this project is md5. The algorithm used in md5 uses four variables of 32-bit length in a round-robin fashion to create a value that is then used to generate the hash. Md5 have fallen out of use due to security problems it faces and largely replaced by SHA-2 hash algorithm. Considering the aims and scope of this application I find md5 to be suitable to use. 
+Main idea of the project is to generate 10,000,000 promo coupon codes to be distributed to company's customers as a gift. Each promo code has to be unique with length of 8 characters taken from the set {A,C,D,E,F,G,H,K,L,M,N,P,R,T,X,Y,Z,2,3,4,5,7,9}. These codes will be given to authorized people and printed out to be distributed to customers. Customers who have taken the a promo code may use it through a mobile app or similar application. To protect these codes from thief codes should not be stored in a database and should be check algorithmically. This project aims to generate a unique hash for each code which cannot be decrypted and checks codes by passing each code into hash function and comparing hash values to verified hash values. The has function that is used in this project is md5. The algorithm used in md5 uses four variables of 32-bit length in a round-robin fashion to create a value that is then used to generate the hash. Md5 have fallen out of use due to security problems it faces and largely replaced by SHA-2 hash algorithm. Considering the aims and scope of this application I find md5 to be suitable to use. 
 
 
 # Compiling and Running of the Project
